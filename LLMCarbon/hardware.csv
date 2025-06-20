@@ -1,0 +1,6 @@
+hardware,description,unit (cm2 or GB),CPA (kgCO2/cm2 or GB),CO2e_chip (kgCO2eq),num
+CPU,TSMC 16nm,1.47,1,1.47,1
+DRAM,Micron 18nm,256,0.4,102.4,0.0625
+SSD,Samsung 20nm,32768,0.018,576,0.00305
+others,TSMC 12nm,111.6,1.2,148.2,1
+L4,TSMC 4nm,2.94,1.8,,1

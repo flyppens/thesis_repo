@@ -1,0 +1,12 @@
+name,type,parameter # (B),base model param. # (B),token # (B),CO2eq/KWh,PUE,computing device,device TPD (W),avg. system power (W),peak TFLOPs/s,achieved TFLOPs/s,hardware efficiency,device #,total zettaFLOPs,training days,actual tCO2eq,energy MWh
+T5,dense,11,,600,0.545,1.12,TPUV3,450,310,123,45.6,0.37,512,40.5,20,46.7,85.7
+GPT3,dense,175,,300,0.429,1.1,V100,300,330,125,24.6,0.197,10000,314,14.8,552.1,1287
+Gshard,MoE,619,2.3,1000,0.177,1.09,TPUV3,450,288,123,48,0.39,1000,13.3,3.1,4.3,24.1
+Switch,MoE,1500,7.41,2000,0.33,1.1,TPUV3,450,245,123,34.4,0.28,1000,82.2,27,59.1,179
+XLM,dense,0.55,,7000,0.413,1.1,V100,300,342,125,26.5,0.212,512,23.9,20.4,39,94.4
+Transformer,dense,0.075554130,,0.0618,0.45,1.1,L4,72,83.65,30,29.3,0.967,1,,0.4889,0.00051,
+Transformer (roofline),dense,0.075554130,,0.0618,0.45,1.1,L4,72,83.65,30,29.3,0.001,1,,0.4889,0.00051,
+Transformer (calculated param_count), dense,0.067580544,,0.0618,0.45,1.1,L4,72,83.65,30,29.3,0.3,1,,0.4889,0.00051,
+Transfomer_estimate_final_japan,dense,0.067436544,,0.053793700,0.459,1.12,L4,72,65.04,30.3,1.4241,0.25,1,,0.5131,0.000539,
+Transfomer_estimate_epoch_20_batch_size_8_taiwan,dense,0.067436544,,0.043034960,0.451,1.1,L4,72,65.04,30.3,1.4241,0.25,1,,0.4645,0.000471,
+Transfomer_estimate_epoch_25_batch_size_16_taiwan,dense,0.067436544,,0.053793700,0.451,1.1,L4,72,65.04,30.3,1.4241,0.25,1,,0.4889,0.0004953,
