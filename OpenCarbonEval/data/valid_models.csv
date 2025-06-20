@@ -1,0 +1,13 @@
+,System,Training compute (FLOP),Task,Training hardware,Publication date,Country (from Organization),Main region,kgco2/kwh,low_alpha,high_alpha,TDP,trash_column
+501,Llama-3,6.30E+24,"Chat,Language modelling/generation,Code generation",NVIDIA H100 SXM5,2024/4/18,United States of America,United States of America,0.424,100,110,700,
+502,BLOOM (now transformer),20460458755276800,Language modelling,NVIDIA A100 SXM4 80 GB,2022/11/8,"Multinational,Multinational",Multinational,0.451,36.11288427,50.50578259,71,
+503,StarCoder,9.30E+22,Code generation,NVIDIA A100 SXM4 80 GB,2023/5/9,"Multinational,United States of America,United States of America,Canada,United States of America,United States of America,Germany,Germany,United Kingdom of Great Britain and Northern Ireland,United States of America,Singapore,Israel,Australia,Australia,Australia,Canada,United States of America,Canada,United States of America,Germany,United States of America,United States of America,Sweden,Multinational,United States of America,United States of America,United States of America,India,India,Multinational,Spain,United States of America,Israel,United Kingdom of Great Britain and Northern Ireland,United States of America,Multinational,Germany",Multinational,0.155,36.11288427,50.50578259,400,
+504,GLM,3.12E+23,,NVIDIA A100 SXM4 40 GB,,,,0.581,31.93031161,44.71400644,400,
+505,ViT-L/16,5.30E+20,,Google TPU v3,,,,0.369,3.330416793,13.13961148,250,
+506,Swin-L,4.00E+20,,NVIDIA V100,,,,0.369,-0.172627384,10.46923648,300,
+507,Transformer_mean,1.23630841728e+18,,NVIDIA L4,2025/5/1,,,0.451,-4.314485,8.445515,71,
+508,Transformer_low,1.23630841728e+18,,NVIDIA L4,2025/5/1,,,0.451,-4.314485,-4.314485,71,
+509,Transformer_high,1.23630841728e+18,,NVIDIA L4,2025/5/1,,,0.451,8.445515,8.445515,71,
+510,Transformer_mean,28086000000000000,,NVIDIA L4,2025/5/1,,,0.451,-4.314485,8.445515,71,
+511,Transformer_low,28086000000000000,,NVIDIA L4,2025/5/1,,,0.451,-4.314485,-4.314485,71,
+512,Transformer_high,28086000000000000,,NVIDIA L4,2025/5/1,,,0.451,8.445515,8.445515,72,
