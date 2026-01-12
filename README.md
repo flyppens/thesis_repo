@@ -56,6 +56,6 @@ Code used to call the data used to train the model:
 - dataset.py
 
 ## Executive Summary
-- For a summary about the research, how it was set up, what the results were, what we learned, and what could be improved upon, see:
+For a summary about the research, how it was set up, what the results were, what we learned, and what could be improved upon, see:
 - exec_summary_thesis.pdf
 
