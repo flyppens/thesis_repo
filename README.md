@@ -7,11 +7,14 @@ Code used to obtain carbon output predictions for LLMCarbon:
 - model.py
 - llmcarbon_tutorial.py
 - embodied.py -> for embodied carbon predictions
+
 Data used by LLMCarbon:
 - database.csv
 - hardware.csv
+
 Output of LLMCarbon:
 - sensitivity_row11.csv
+
 Code used for accuracy and sensitivity analyses:
 - Sobol_analysis.py
 - feat_importance_regr.py
@@ -21,12 +24,14 @@ Code used for accuracy and sensitivity analyses:
 Code used to obtain carbon output predictions for OpenCarbonEval:
 - code_predictions
    - opencarboneval_main.ipynb
+
 Data used by OpenCarbonEval:
 - data
   - OpenCarbonEval_dataset.csv
   - model_emission.csv
   - notable_ai_models.csv
   - valid_models.csv
+
 Code used for accuracy and sensitivity analyses:
 - Sobol_analysis.py
 - lin_regr.py
@@ -36,12 +41,15 @@ Code used for accuracy and sensitivity analyses:
 ## Transformer
 The model:
 - model.py
+
 Code to start training using CodeCarbon and Weights & Biases tracking:
 - train.py
 - train_wb_japan.py
+
 Configuration of the models:
 - config.py
 - config_japan.py
+
 Code used to call the data used to train the model:
 - dataset.py
 
